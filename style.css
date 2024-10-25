@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 5px 10px black;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#im{
+    width: 100%;
+}
+
+img{
+    /* width: 100vw; */
+    width: 50px;
+    height: 50px;
+
+}
+
+nav>a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+.one:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+.five{
+    background-color: orangered;
+    color: white ;
+}
+
+.five:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+#icon{
+    display: none;
+    font-size: large;
+}
+
+main{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5b9343ce4611a05bc46ea084/ebfb128d-2704-458b-b68a-b1f22f72768f/baby+mom+blocks.jpeg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.main-container{
+    background-color: #fff;
+    height: 501px;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+    margin-right: 100px;
+    display: flex;
+}
+
+h1{
+    font-size: 35px;
+    font-family: "Baloo Tamma 2", system-ui;
+    line-height: 100%;
+}
+
+.button{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f2480A;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#p1{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 20px;
+    font-family: "Open Sans",sans-serif;
+}
+
+h4>i{
+    color: #f2480A;
+}
+
+#p2{
+    font-size: 14px;
+}
+
+
+@media screen and (width>990px) and (width<=1200px){
+    h1{
+        font-size: 60px;
+        font-family: "Baloo Tamma 2", system-ui;
+        line-height: 100%;
+    }
+
+    
+    .main-container{
+        height: 501px;
+        width: 481px;
+    }
+
+    #icon{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+}
+
+@media screen and (width>=765px) and (width<=990px){
+    h1{
+        font-size: 48px;
+        font-family: "Baloo Tamma 2", system-ui;
+        line-height: 100%;
+    }
+
+    .main-container{
+        height: 453px;
+        width: 399px;
+    }
+
+    #icon{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+@media screen and (width>=575px) and (width<765px){
+    h1{
+        font-size: 48px;
+        font-family: "Baloo Tamma 2", system-ui;
+        line-height: 100%;
+    }
+    .main-container{
+        height: 453px;
+        width: 399px;
+    }
+
+    #icon{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+}
+
+
+@media screen and (width>=465px) and (width<575px){
+    h1{
+        font-size: 36px;
+        font-family: "Baloo Tamma 2", system-ui;
+        line-height: 100%;
+    }
+    .main-container{
+        height: 453px;
+        width: 340px;
+
+    }
+
+    #icon{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+
+}
+
+@media screen and (width<465px){
+    h1{
+        font-size: 24px;
+        font-family: "Baloo Tamma 2", system-ui;
+        line-height: 100%;
+    }
+    .main-container{
+        height: 380px;
+        width: 340px;
+        gap:30px;
+        display: flex;
+        margin-left: 100px;
+
+    }
+
+    .button{
+        font-size: 10px;
+        font-weight: bold;
+        font-family: "Open Sans",sans-serif;
+        text-decoration: none;
+        color: #fff;
+        background-color: #f2480A;
+        padding: 8px 16px;
+        border-radius: 20px;
+    }
+
+    h4{
+        font-size: 15px;
+        font-family: "Open Sans",sans-serif;
+    }
+
+    #icon{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+
